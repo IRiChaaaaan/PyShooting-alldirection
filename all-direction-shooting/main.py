@@ -43,6 +43,8 @@ def main():
 			if event.type == pygame.QUIT:
 				pygame.quit()
 				sys.exit()
+		key = pygame.key.get_pressed()
+		
 		# 背景を塗りつぶす
 		screen.fill((0, 0, 0))
 		
